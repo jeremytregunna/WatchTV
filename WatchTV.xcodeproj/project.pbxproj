@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4EC36D321E2427CD00A80EFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC36D311E2427CD00A80EFF /* AppDelegate.swift */; };
+		4EC36D341E2427CD00A80EFF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC36D331E2427CD00A80EFF /* ViewController.swift */; };
+		4EC36D371E2427CD00A80EFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EC36D351E2427CD00A80EFF /* Main.storyboard */; };
+		4EC36D3A1E2427CD00A80EFF /* WatchTV.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4EC36D381E2427CD00A80EFF /* WatchTV.xcdatamodeld */; };
+		4EC36D3C1E2427CD00A80EFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EC36D3B1E2427CD00A80EFF /* Assets.xcassets */; };
+		4EC36D3F1E2427CD00A80EFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EC36D3D1E2427CD00A80EFF /* LaunchScreen.storyboard */; };
+		4EC36D4A1E2427CD00A80EFF /* WatchTVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC36D491E2427CD00A80EFF /* WatchTVTests.swift */; };
+		4EC36D551E2427CD00A80EFF /* WatchTVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC36D541E2427CD00A80EFF /* WatchTVUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4EC36D461E2427CD00A80EFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4EC36D261E2427CD00A80EFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4EC36D2D1E2427CD00A80EFF;
+			remoteInfo = WatchTV;
+		};
+		4EC36D511E2427CD00A80EFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4EC36D261E2427CD00A80EFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4EC36D2D1E2427CD00A80EFF;
+			remoteInfo = WatchTV;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4EC36D2E1E2427CD00A80EFF /* WatchTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EC36D311E2427CD00A80EFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4EC36D331E2427CD00A80EFF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4EC36D361E2427CD00A80EFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4EC36D391E2427CD00A80EFF /* WatchTV.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WatchTV.xcdatamodel; sourceTree = "<group>"; };
+		4EC36D3B1E2427CD00A80EFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4EC36D3E1E2427CD00A80EFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4EC36D401E2427CD00A80EFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EC36D451E2427CD00A80EFF /* WatchTVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WatchTVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EC36D491E2427CD00A80EFF /* WatchTVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchTVTests.swift; sourceTree = "<group>"; };
+		4EC36D4B1E2427CD00A80EFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EC36D501E2427CD00A80EFF /* WatchTVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WatchTVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EC36D541E2427CD00A80EFF /* WatchTVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchTVUITests.swift; sourceTree = "<group>"; };
+		4EC36D561E2427CD00A80EFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4EC36D2B1E2427CD00A80EFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EC36D421E2427CD00A80EFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EC36D4D1E2427CD00A80EFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4EC36D251E2427CD00A80EFF = {
+			isa = PBXGroup;
+			children = (
+				4EC36D301E2427CD00A80EFF /* WatchTV */,
+				4EC36D481E2427CD00A80EFF /* WatchTVTests */,
+				4EC36D531E2427CD00A80EFF /* WatchTVUITests */,
+				4EC36D2F1E2427CD00A80EFF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4EC36D2F1E2427CD00A80EFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4EC36D2E1E2427CD00A80EFF /* WatchTV.app */,
+				4EC36D451E2427CD00A80EFF /* WatchTVTests.xctest */,
+				4EC36D501E2427CD00A80EFF /* WatchTVUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4EC36D301E2427CD00A80EFF /* WatchTV */ = {
+			isa = PBXGroup;
+			children = (
+				4EC36D311E2427CD00A80EFF /* AppDelegate.swift */,
+				4EC36D331E2427CD00A80EFF /* ViewController.swift */,
+				4EC36D351E2427CD00A80EFF /* Main.storyboard */,
+				4EC36D3B1E2427CD00A80EFF /* Assets.xcassets */,
+				4EC36D3D1E2427CD00A80EFF /* LaunchScreen.storyboard */,
+				4EC36D401E2427CD00A80EFF /* Info.plist */,
+				4EC36D381E2427CD00A80EFF /* WatchTV.xcdatamodeld */,
+			);
+			path = WatchTV;
+			sourceTree = "<group>";
+		};
+		4EC36D481E2427CD00A80EFF /* WatchTVTests */ = {
+			isa = PBXGroup;
+			children = (
+				4EC36D491E2427CD00A80EFF /* WatchTVTests.swift */,
+				4EC36D4B1E2427CD00A80EFF /* Info.plist */,
+			);
+			path = WatchTVTests;
+			sourceTree = "<group>";
+		};
+		4EC36D531E2427CD00A80EFF /* WatchTVUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4EC36D541E2427CD00A80EFF /* WatchTVUITests.swift */,
+				4EC36D561E2427CD00A80EFF /* Info.plist */,
+			);
+			path = WatchTVUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4EC36D2D1E2427CD00A80EFF /* WatchTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EC36D591E2427CD00A80EFF /* Build configuration list for PBXNativeTarget "WatchTV" */;
+			buildPhases = (
+				4EC36D2A1E2427CD00A80EFF /* Sources */,
+				4EC36D2B1E2427CD00A80EFF /* Frameworks */,
+				4EC36D2C1E2427CD00A80EFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WatchTV;
+			productName = WatchTV;
+			productReference = 4EC36D2E1E2427CD00A80EFF /* WatchTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4EC36D441E2427CD00A80EFF /* WatchTVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EC36D5C1E2427CD00A80EFF /* Build configuration list for PBXNativeTarget "WatchTVTests" */;
+			buildPhases = (
+				4EC36D411E2427CD00A80EFF /* Sources */,
+				4EC36D421E2427CD00A80EFF /* Frameworks */,
+				4EC36D431E2427CD00A80EFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4EC36D471E2427CD00A80EFF /* PBXTargetDependency */,
+			);
+			name = WatchTVTests;
+			productName = WatchTVTests;
+			productReference = 4EC36D451E2427CD00A80EFF /* WatchTVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4EC36D4F1E2427CD00A80EFF /* WatchTVUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EC36D5F1E2427CD00A80EFF /* Build configuration list for PBXNativeTarget "WatchTVUITests" */;
+			buildPhases = (
+				4EC36D4C1E2427CD00A80EFF /* Sources */,
+				4EC36D4D1E2427CD00A80EFF /* Frameworks */,
+				4EC36D4E1E2427CD00A80EFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4EC36D521E2427CD00A80EFF /* PBXTargetDependency */,
+			);
+			name = WatchTVUITests;
+			productName = WatchTVUITests;
+			productReference = 4EC36D501E2427CD00A80EFF /* WatchTVUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4EC36D261E2427CD00A80EFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Greenshire, Inc.";
+				TargetAttributes = {
+					4EC36D2D1E2427CD00A80EFF = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 5UUW96Q8NT;
+						ProvisioningStyle = Automatic;
+					};
+					4EC36D441E2427CD00A80EFF = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 5UUW96Q8NT;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4EC36D2D1E2427CD00A80EFF;
+					};
+					4EC36D4F1E2427CD00A80EFF = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 5UUW96Q8NT;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4EC36D2D1E2427CD00A80EFF;
+					};
+				};
+			};
+			buildConfigurationList = 4EC36D291E2427CD00A80EFF /* Build configuration list for PBXProject "WatchTV" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4EC36D251E2427CD00A80EFF;
+			productRefGroup = 4EC36D2F1E2427CD00A80EFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4EC36D2D1E2427CD00A80EFF /* WatchTV */,
+				4EC36D441E2427CD00A80EFF /* WatchTVTests */,
+				4EC36D4F1E2427CD00A80EFF /* WatchTVUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4EC36D2C1E2427CD00A80EFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EC36D3F1E2427CD00A80EFF /* LaunchScreen.storyboard in Resources */,
+				4EC36D3C1E2427CD00A80EFF /* Assets.xcassets in Resources */,
+				4EC36D371E2427CD00A80EFF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EC36D431E2427CD00A80EFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EC36D4E1E2427CD00A80EFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4EC36D2A1E2427CD00A80EFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EC36D341E2427CD00A80EFF /* ViewController.swift in Sources */,
+				4EC36D3A1E2427CD00A80EFF /* WatchTV.xcdatamodeld in Sources */,
+				4EC36D321E2427CD00A80EFF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EC36D411E2427CD00A80EFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EC36D4A1E2427CD00A80EFF /* WatchTVTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EC36D4C1E2427CD00A80EFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EC36D551E2427CD00A80EFF /* WatchTVUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4EC36D471E2427CD00A80EFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4EC36D2D1E2427CD00A80EFF /* WatchTV */;
+			targetProxy = 4EC36D461E2427CD00A80EFF /* PBXContainerItemProxy */;
+		};
+		4EC36D521E2427CD00A80EFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4EC36D2D1E2427CD00A80EFF /* WatchTV */;
+			targetProxy = 4EC36D511E2427CD00A80EFF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4EC36D351E2427CD00A80EFF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EC36D361E2427CD00A80EFF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4EC36D3D1E2427CD00A80EFF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EC36D3E1E2427CD00A80EFF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4EC36D571E2427CD00A80EFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4EC36D581E2427CD00A80EFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4EC36D5A1E2427CD00A80EFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5UUW96Q8NT;
+				INFOPLIST_FILE = WatchTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.greenshire.apps.ios.WatchTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4EC36D5B1E2427CD00A80EFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5UUW96Q8NT;
+				INFOPLIST_FILE = WatchTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.greenshire.apps.ios.WatchTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		4EC36D5D1E2427CD00A80EFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5UUW96Q8NT;
+				INFOPLIST_FILE = WatchTVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.greenshire.apps.ios.WatchTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WatchTV.app/WatchTV";
+			};
+			name = Debug;
+		};
+		4EC36D5E1E2427CD00A80EFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5UUW96Q8NT;
+				INFOPLIST_FILE = WatchTVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.greenshire.apps.ios.WatchTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WatchTV.app/WatchTV";
+			};
+			name = Release;
+		};
+		4EC36D601E2427CD00A80EFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 5UUW96Q8NT;
+				INFOPLIST_FILE = WatchTVUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.greenshire.apps.ios.WatchTVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = WatchTV;
+			};
+			name = Debug;
+		};
+		4EC36D611E2427CD00A80EFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 5UUW96Q8NT;
+				INFOPLIST_FILE = WatchTVUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.greenshire.apps.ios.WatchTVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = WatchTV;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4EC36D291E2427CD00A80EFF /* Build configuration list for PBXProject "WatchTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EC36D571E2427CD00A80EFF /* Debug */,
+				4EC36D581E2427CD00A80EFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EC36D591E2427CD00A80EFF /* Build configuration list for PBXNativeTarget "WatchTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EC36D5A1E2427CD00A80EFF /* Debug */,
+				4EC36D5B1E2427CD00A80EFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4EC36D5C1E2427CD00A80EFF /* Build configuration list for PBXNativeTarget "WatchTVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EC36D5D1E2427CD00A80EFF /* Debug */,
+				4EC36D5E1E2427CD00A80EFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4EC36D5F1E2427CD00A80EFF /* Build configuration list for PBXNativeTarget "WatchTVUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EC36D601E2427CD00A80EFF /* Debug */,
+				4EC36D611E2427CD00A80EFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4EC36D381E2427CD00A80EFF /* WatchTV.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4EC36D391E2427CD00A80EFF /* WatchTV.xcdatamodel */,
+			);
+			currentVersion = 4EC36D391E2427CD00A80EFF /* WatchTV.xcdatamodel */;
+			path = WatchTV.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4EC36D261E2427CD00A80EFF /* Project object */;
+}

@@ -7,17 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E9551C61E24B01800A0EFA1 /* ChannelListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9551C41E24B01800A0EFA1 /* ChannelListViewController.swift */; };
+		4E9551C71E24B01800A0EFA1 /* WatchTV.ChannelListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E9551C51E24B01800A0EFA1 /* WatchTV.ChannelListViewController.xib */; };
+		4E9551CA1E24B06300A0EFA1 /* VideoListLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9551C91E24B06300A0EFA1 /* VideoListLayout.swift */; };
+		4E9551CE1E25361400A0EFA1 /* ChannelListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9551CC1E25361400A0EFA1 /* ChannelListCell.swift */; };
+		4E9551CF1E25361400A0EFA1 /* WatchTV.ChannelListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E9551CD1E25361400A0EFA1 /* WatchTV.ChannelListCell.xib */; };
+		4E9551D21E25448400A0EFA1 /* ChannelService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9551D11E25448400A0EFA1 /* ChannelService.swift */; };
+		4E9551D61E25454A00A0EFA1 /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9551D51E25454A00A0EFA1 /* Channel.swift */; };
+		4E9551D91E25475E00A0EFA1 /* UIColor+Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9551D81E25475E00A0EFA1 /* UIColor+Random.swift */; };
+		4E9551DB1E2548B200A0EFA1 /* ChannelListDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9551DA1E2548B200A0EFA1 /* ChannelListDataSource.swift */; };
+		4E9551DD1E254C0E00A0EFA1 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9551DC1E254C0E00A0EFA1 /* Router.swift */; };
+		4E9551E51E28890500A0EFA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9551E41E28890500A0EFA1 /* AppDelegate.swift */; };
+		4E9551EC1E28890500A0EFA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E9551EB1E28890500A0EFA1 /* Assets.xcassets */; };
+		4E9551F71E28890500A0EFA1 /* WatchTV_tvOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9551F61E28890500A0EFA1 /* WatchTV_tvOSUITests.swift */; };
+		4E9551FF1E288BB000A0EFA1 /* ChannelService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9551D11E25448400A0EFA1 /* ChannelService.swift */; };
+		4E9552011E2895A000A0EFA1 /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9551D51E25454A00A0EFA1 /* Channel.swift */; };
+		4E9552051E289A3200A0EFA1 /* ChannelListDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9551DA1E2548B200A0EFA1 /* ChannelListDataSource.swift */; };
+		4E9552081E289B6700A0EFA1 /* ChannelListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9552061E289B6700A0EFA1 /* ChannelListViewController.swift */; };
+		4E95520B1E29619300A0EFA1 /* ChannelsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E95520A1E29619300A0EFA1 /* ChannelsView.swift */; };
+		4E95520E1E29633E00A0EFA1 /* ChannelListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E95520C1E29633E00A0EFA1 /* ChannelListCell.swift */; };
+		4E9552101E2A958400A0EFA1 /* UIColor+Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9551D81E25475E00A0EFA1 /* UIColor+Random.swift */; };
+		4E9552121E2A97FC00A0EFA1 /* FeaturedChannelsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9552111E2A97FC00A0EFA1 /* FeaturedChannelsViewController.swift */; };
+		4E9552141E2A985100A0EFA1 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9552131E2A985100A0EFA1 /* BaseViewController.swift */; };
+		4E9552161E2B04F400A0EFA1 /* ChannelHeroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9552151E2B04F400A0EFA1 /* ChannelHeroView.swift */; };
 		4EC36D321E2427CD00A80EFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC36D311E2427CD00A80EFF /* AppDelegate.swift */; };
-		4EC36D341E2427CD00A80EFF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC36D331E2427CD00A80EFF /* ViewController.swift */; };
-		4EC36D371E2427CD00A80EFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EC36D351E2427CD00A80EFF /* Main.storyboard */; };
-		4EC36D3A1E2427CD00A80EFF /* WatchTV.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4EC36D381E2427CD00A80EFF /* WatchTV.xcdatamodeld */; };
 		4EC36D3C1E2427CD00A80EFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EC36D3B1E2427CD00A80EFF /* Assets.xcassets */; };
 		4EC36D3F1E2427CD00A80EFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EC36D3D1E2427CD00A80EFF /* LaunchScreen.storyboard */; };
 		4EC36D4A1E2427CD00A80EFF /* WatchTVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC36D491E2427CD00A80EFF /* WatchTVTests.swift */; };
 		4EC36D551E2427CD00A80EFF /* WatchTVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC36D541E2427CD00A80EFF /* WatchTVUITests.swift */; };
+		4EC36D651E244FF200A80EFF /* WatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC36D631E244FF200A80EFF /* WatchViewController.swift */; };
+		4EC36D661E244FF200A80EFF /* WatchTV.WatchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4EC36D641E244FF200A80EFF /* WatchTV.WatchViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		4E9551F31E28890500A0EFA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4EC36D261E2427CD00A80EFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E9551E11E28890500A0EFA1;
+			remoteInfo = "WatchTV tvOS";
+		};
 		4EC36D461E2427CD00A80EFF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 4EC36D261E2427CD00A80EFF /* Project object */;
@@ -35,11 +64,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4E9551C41E24B01800A0EFA1 /* ChannelListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChannelListViewController.swift; sourceTree = "<group>"; };
+		4E9551C51E24B01800A0EFA1 /* WatchTV.ChannelListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WatchTV.ChannelListViewController.xib; sourceTree = "<group>"; };
+		4E9551C91E24B06300A0EFA1 /* VideoListLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoListLayout.swift; sourceTree = "<group>"; };
+		4E9551CC1E25361400A0EFA1 /* ChannelListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChannelListCell.swift; sourceTree = "<group>"; };
+		4E9551CD1E25361400A0EFA1 /* WatchTV.ChannelListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WatchTV.ChannelListCell.xib; sourceTree = "<group>"; };
+		4E9551D11E25448400A0EFA1 /* ChannelService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChannelService.swift; sourceTree = "<group>"; };
+		4E9551D51E25454A00A0EFA1 /* Channel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
+		4E9551D81E25475E00A0EFA1 /* UIColor+Random.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Random.swift"; sourceTree = "<group>"; };
+		4E9551DA1E2548B200A0EFA1 /* ChannelListDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChannelListDataSource.swift; sourceTree = "<group>"; };
+		4E9551DC1E254C0E00A0EFA1 /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		4E9551E21E28890500A0EFA1 /* WatchTV tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WatchTV tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E9551E41E28890500A0EFA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4E9551EB1E28890500A0EFA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4E9551ED1E28890500A0EFA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E9551F21E28890500A0EFA1 /* WatchTV tvOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WatchTV tvOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E9551F61E28890500A0EFA1 /* WatchTV_tvOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchTV_tvOSUITests.swift; sourceTree = "<group>"; };
+		4E9551F81E28890500A0EFA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E9552061E289B6700A0EFA1 /* ChannelListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChannelListViewController.swift; sourceTree = "<group>"; };
+		4E95520A1E29619300A0EFA1 /* ChannelsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChannelsView.swift; sourceTree = "<group>"; };
+		4E95520C1E29633E00A0EFA1 /* ChannelListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChannelListCell.swift; sourceTree = "<group>"; };
+		4E9552111E2A97FC00A0EFA1 /* FeaturedChannelsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeaturedChannelsViewController.swift; sourceTree = "<group>"; };
+		4E9552131E2A985100A0EFA1 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		4E9552151E2B04F400A0EFA1 /* ChannelHeroView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChannelHeroView.swift; sourceTree = "<group>"; };
 		4EC36D2E1E2427CD00A80EFF /* WatchTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EC36D311E2427CD00A80EFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4EC36D331E2427CD00A80EFF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4EC36D361E2427CD00A80EFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4EC36D391E2427CD00A80EFF /* WatchTV.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WatchTV.xcdatamodel; sourceTree = "<group>"; };
 		4EC36D3B1E2427CD00A80EFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4EC36D3E1E2427CD00A80EFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4EC36D401E2427CD00A80EFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,9 +98,25 @@
 		4EC36D501E2427CD00A80EFF /* WatchTVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WatchTVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EC36D541E2427CD00A80EFF /* WatchTVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchTVUITests.swift; sourceTree = "<group>"; };
 		4EC36D561E2427CD00A80EFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EC36D631E244FF200A80EFF /* WatchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatchViewController.swift; sourceTree = "<group>"; };
+		4EC36D641E244FF200A80EFF /* WatchTV.WatchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WatchTV.WatchViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		4E9551DF1E28890500A0EFA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E9551EF1E28890500A0EFA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4EC36D2B1E2427CD00A80EFF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -76,12 +141,125 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4E9551C81E24B05B00A0EFA1 /* Layouts */ = {
+			isa = PBXGroup;
+			children = (
+				4E9551C91E24B06300A0EFA1 /* VideoListLayout.swift */,
+			);
+			name = Layouts;
+			sourceTree = "<group>";
+		};
+		4E9551CB1E2535F800A0EFA1 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				4E9551CC1E25361400A0EFA1 /* ChannelListCell.swift */,
+				4E9551CD1E25361400A0EFA1 /* WatchTV.ChannelListCell.xib */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		4E9551D01E25446E00A0EFA1 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				4E9551D11E25448400A0EFA1 /* ChannelService.swift */,
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
+		4E9551D31E25453A00A0EFA1 /* State */ = {
+			isa = PBXGroup;
+			children = (
+				4E9551DA1E2548B200A0EFA1 /* ChannelListDataSource.swift */,
+			);
+			name = State;
+			sourceTree = "<group>";
+		};
+		4E9551D41E25454200A0EFA1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4E9551D51E25454A00A0EFA1 /* Channel.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		4E9551D71E25475100A0EFA1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4E9551D81E25475E00A0EFA1 /* UIColor+Random.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		4E9551E31E28890500A0EFA1 /* tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				4E9552031E28982300A0EFA1 /* Application */,
+				4E9552021E28981D00A0EFA1 /* View */,
+				4E9552041E28983800A0EFA1 /* Resources */,
+			);
+			name = tvOS;
+			path = "WatchTV tvOS";
+			sourceTree = "<group>";
+		};
+		4E9551F51E28890500A0EFA1 /* tvOS UI Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4E9551F61E28890500A0EFA1 /* WatchTV_tvOSUITests.swift */,
+				4E9551F81E28890500A0EFA1 /* Info.plist */,
+			);
+			name = "tvOS UI Tests";
+			path = "WatchTV tvOSUITests";
+			sourceTree = "<group>";
+		};
+		4E9552001E288BBB00A0EFA1 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				4E9551D41E25454200A0EFA1 /* Models */,
+				4E9551D01E25446E00A0EFA1 /* Service */,
+				4E9551D31E25453A00A0EFA1 /* State */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		4E9552021E28981D00A0EFA1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4E9552131E2A985100A0EFA1 /* BaseViewController.swift */,
+				4E9552151E2B04F400A0EFA1 /* ChannelHeroView.swift */,
+				4E95520C1E29633E00A0EFA1 /* ChannelListCell.swift */,
+				4E9552061E289B6700A0EFA1 /* ChannelListViewController.swift */,
+				4E95520A1E29619300A0EFA1 /* ChannelsView.swift */,
+				4E9552111E2A97FC00A0EFA1 /* FeaturedChannelsViewController.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		4E9552031E28982300A0EFA1 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				4E9551E41E28890500A0EFA1 /* AppDelegate.swift */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+		4E9552041E28983800A0EFA1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4E9551EB1E28890500A0EFA1 /* Assets.xcassets */,
+				4E9551ED1E28890500A0EFA1 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		4EC36D251E2427CD00A80EFF = {
 			isa = PBXGroup;
 			children = (
-				4EC36D301E2427CD00A80EFF /* WatchTV */,
-				4EC36D481E2427CD00A80EFF /* WatchTVTests */,
-				4EC36D531E2427CD00A80EFF /* WatchTVUITests */,
+				4E9552001E288BBB00A0EFA1 /* Common */,
+				4EC36D301E2427CD00A80EFF /* iOS */,
+				4EC36D481E2427CD00A80EFF /* iOS Tests */,
+				4EC36D531E2427CD00A80EFF /* iOS UI Tests */,
+				4E9551E31E28890500A0EFA1 /* tvOS */,
+				4E9551F51E28890500A0EFA1 /* tvOS UI Tests */,
 				4EC36D2F1E2427CD00A80EFF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -92,45 +270,114 @@
 				4EC36D2E1E2427CD00A80EFF /* WatchTV.app */,
 				4EC36D451E2427CD00A80EFF /* WatchTVTests.xctest */,
 				4EC36D501E2427CD00A80EFF /* WatchTVUITests.xctest */,
+				4E9551E21E28890500A0EFA1 /* WatchTV tvOS.app */,
+				4E9551F21E28890500A0EFA1 /* WatchTV tvOSUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4EC36D301E2427CD00A80EFF /* WatchTV */ = {
+		4EC36D301E2427CD00A80EFF /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				4EC36D311E2427CD00A80EFF /* AppDelegate.swift */,
-				4EC36D331E2427CD00A80EFF /* ViewController.swift */,
-				4EC36D351E2427CD00A80EFF /* Main.storyboard */,
-				4EC36D3B1E2427CD00A80EFF /* Assets.xcassets */,
-				4EC36D3D1E2427CD00A80EFF /* LaunchScreen.storyboard */,
-				4EC36D401E2427CD00A80EFF /* Info.plist */,
-				4EC36D381E2427CD00A80EFF /* WatchTV.xcdatamodeld */,
+				4EC36D681E24500200A80EFF /* Application */,
+				4E9551D71E25475100A0EFA1 /* Extensions */,
+				4EC36D671E244FFE00A80EFF /* View */,
+				4EC36D621E244F4300A80EFF /* Resources */,
 			);
+			name = iOS;
 			path = WatchTV;
 			sourceTree = "<group>";
 		};
-		4EC36D481E2427CD00A80EFF /* WatchTVTests */ = {
+		4EC36D481E2427CD00A80EFF /* iOS Tests */ = {
 			isa = PBXGroup;
 			children = (
 				4EC36D491E2427CD00A80EFF /* WatchTVTests.swift */,
 				4EC36D4B1E2427CD00A80EFF /* Info.plist */,
 			);
+			name = "iOS Tests";
 			path = WatchTVTests;
 			sourceTree = "<group>";
 		};
-		4EC36D531E2427CD00A80EFF /* WatchTVUITests */ = {
+		4EC36D531E2427CD00A80EFF /* iOS UI Tests */ = {
 			isa = PBXGroup;
 			children = (
 				4EC36D541E2427CD00A80EFF /* WatchTVUITests.swift */,
 				4EC36D561E2427CD00A80EFF /* Info.plist */,
 			);
+			name = "iOS UI Tests";
 			path = WatchTVUITests;
+			sourceTree = "<group>";
+		};
+		4EC36D621E244F4300A80EFF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4EC36D3B1E2427CD00A80EFF /* Assets.xcassets */,
+				4EC36D3D1E2427CD00A80EFF /* LaunchScreen.storyboard */,
+				4EC36D401E2427CD00A80EFF /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		4EC36D671E244FFE00A80EFF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4E9551CB1E2535F800A0EFA1 /* Cells */,
+				4E9551C81E24B05B00A0EFA1 /* Layouts */,
+				4E9551C41E24B01800A0EFA1 /* ChannelListViewController.swift */,
+				4EC36D631E244FF200A80EFF /* WatchViewController.swift */,
+				4E9551C51E24B01800A0EFA1 /* WatchTV.ChannelListViewController.xib */,
+				4EC36D641E244FF200A80EFF /* WatchTV.WatchViewController.xib */,
+				4E9551DC1E254C0E00A0EFA1 /* Router.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		4EC36D681E24500200A80EFF /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				4EC36D311E2427CD00A80EFF /* AppDelegate.swift */,
+			);
+			name = Application;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		4E9551E11E28890500A0EFA1 /* WatchTV tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E9551F91E28890500A0EFA1 /* Build configuration list for PBXNativeTarget "WatchTV tvOS" */;
+			buildPhases = (
+				4E9551DE1E28890500A0EFA1 /* Sources */,
+				4E9551DF1E28890500A0EFA1 /* Frameworks */,
+				4E9551E01E28890500A0EFA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WatchTV tvOS";
+			productName = "WatchTV tvOS";
+			productReference = 4E9551E21E28890500A0EFA1 /* WatchTV tvOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4E9551F11E28890500A0EFA1 /* WatchTV tvOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E9551FC1E28890500A0EFA1 /* Build configuration list for PBXNativeTarget "WatchTV tvOSUITests" */;
+			buildPhases = (
+				4E9551EE1E28890500A0EFA1 /* Sources */,
+				4E9551EF1E28890500A0EFA1 /* Frameworks */,
+				4E9551F01E28890500A0EFA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E9551F41E28890500A0EFA1 /* PBXTargetDependency */,
+			);
+			name = "WatchTV tvOSUITests";
+			productName = "WatchTV tvOSUITests";
+			productReference = 4E9551F21E28890500A0EFA1 /* WatchTV tvOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		4EC36D2D1E2427CD00A80EFF /* WatchTV */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4EC36D591E2427CD00A80EFF /* Build configuration list for PBXNativeTarget "WatchTV" */;
@@ -190,10 +437,21 @@
 		4EC36D261E2427CD00A80EFF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0810;
-				LastUpgradeCheck = 0810;
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Greenshire, Inc.";
 				TargetAttributes = {
+					4E9551E11E28890500A0EFA1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 5UUW96Q8NT;
+						ProvisioningStyle = Automatic;
+					};
+					4E9551F11E28890500A0EFA1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 5UUW96Q8NT;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4E9551E11E28890500A0EFA1;
+					};
 					4EC36D2D1E2427CD00A80EFF = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = 5UUW96Q8NT;
@@ -229,18 +487,37 @@
 				4EC36D2D1E2427CD00A80EFF /* WatchTV */,
 				4EC36D441E2427CD00A80EFF /* WatchTVTests */,
 				4EC36D4F1E2427CD00A80EFF /* WatchTVUITests */,
+				4E9551E11E28890500A0EFA1 /* WatchTV tvOS */,
+				4E9551F11E28890500A0EFA1 /* WatchTV tvOSUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		4E9551E01E28890500A0EFA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E9551EC1E28890500A0EFA1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E9551F01E28890500A0EFA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4EC36D2C1E2427CD00A80EFF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				4EC36D3F1E2427CD00A80EFF /* LaunchScreen.storyboard in Resources */,
+				4EC36D661E244FF200A80EFF /* WatchTV.WatchViewController.xib in Resources */,
+				4E9551C71E24B01800A0EFA1 /* WatchTV.ChannelListViewController.xib in Resources */,
 				4EC36D3C1E2427CD00A80EFF /* Assets.xcassets in Resources */,
-				4EC36D371E2427CD00A80EFF /* Main.storyboard in Resources */,
+				4E9551CF1E25361400A0EFA1 /* WatchTV.ChannelListCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,12 +538,45 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		4E9551DE1E28890500A0EFA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E9552101E2A958400A0EFA1 /* UIColor+Random.swift in Sources */,
+				4E9552161E2B04F400A0EFA1 /* ChannelHeroView.swift in Sources */,
+				4E9551FF1E288BB000A0EFA1 /* ChannelService.swift in Sources */,
+				4E9552011E2895A000A0EFA1 /* Channel.swift in Sources */,
+				4E95520B1E29619300A0EFA1 /* ChannelsView.swift in Sources */,
+				4E9552051E289A3200A0EFA1 /* ChannelListDataSource.swift in Sources */,
+				4E9552141E2A985100A0EFA1 /* BaseViewController.swift in Sources */,
+				4E9552121E2A97FC00A0EFA1 /* FeaturedChannelsViewController.swift in Sources */,
+				4E95520E1E29633E00A0EFA1 /* ChannelListCell.swift in Sources */,
+				4E9551E51E28890500A0EFA1 /* AppDelegate.swift in Sources */,
+				4E9552081E289B6700A0EFA1 /* ChannelListViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E9551EE1E28890500A0EFA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E9551F71E28890500A0EFA1 /* WatchTV_tvOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4EC36D2A1E2427CD00A80EFF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4EC36D341E2427CD00A80EFF /* ViewController.swift in Sources */,
-				4EC36D3A1E2427CD00A80EFF /* WatchTV.xcdatamodeld in Sources */,
+				4E9551D61E25454A00A0EFA1 /* Channel.swift in Sources */,
+				4E9551C61E24B01800A0EFA1 /* ChannelListViewController.swift in Sources */,
+				4E9551DD1E254C0E00A0EFA1 /* Router.swift in Sources */,
+				4EC36D651E244FF200A80EFF /* WatchViewController.swift in Sources */,
+				4E9551D91E25475E00A0EFA1 /* UIColor+Random.swift in Sources */,
+				4E9551CA1E24B06300A0EFA1 /* VideoListLayout.swift in Sources */,
+				4E9551DB1E2548B200A0EFA1 /* ChannelListDataSource.swift in Sources */,
+				4E9551D21E25448400A0EFA1 /* ChannelService.swift in Sources */,
+				4E9551CE1E25361400A0EFA1 /* ChannelListCell.swift in Sources */,
 				4EC36D321E2427CD00A80EFF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -290,6 +600,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		4E9551F41E28890500A0EFA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E9551E11E28890500A0EFA1 /* WatchTV tvOS */;
+			targetProxy = 4E9551F31E28890500A0EFA1 /* PBXContainerItemProxy */;
+		};
 		4EC36D471E2427CD00A80EFF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 4EC36D2D1E2427CD00A80EFF /* WatchTV */;
@@ -303,14 +618,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		4EC36D351E2427CD00A80EFF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4EC36D361E2427CD00A80EFF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4EC36D3D1E2427CD00A80EFF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -322,6 +629,72 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		4E9551FA1E28890500A0EFA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 5UUW96Q8NT;
+				INFOPLIST_FILE = "WatchTV tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.greenshire.apps.tvos.WatchTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		4E9551FB1E28890500A0EFA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 5UUW96Q8NT;
+				INFOPLIST_FILE = "WatchTV tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.greenshire.apps.tvos.WatchTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		4E9551FD1E28890500A0EFA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 5UUW96Q8NT;
+				INFOPLIST_FILE = "WatchTV tvOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "co.greenshire.apps.ios.WatchTV-tvOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "WatchTV tvOS";
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+			};
+			name = Debug;
+		};
+		4E9551FE1E28890500A0EFA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 5UUW96Q8NT;
+				INFOPLIST_FILE = "WatchTV tvOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "co.greenshire.apps.ios.WatchTV-tvOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "WatchTV tvOS";
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+			};
+			name = Release;
+		};
 		4EC36D571E2427CD00A80EFF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -340,6 +713,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -389,6 +763,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -500,6 +875,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		4E9551F91E28890500A0EFA1 /* Build configuration list for PBXNativeTarget "WatchTV tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E9551FA1E28890500A0EFA1 /* Debug */,
+				4E9551FB1E28890500A0EFA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E9551FC1E28890500A0EFA1 /* Build configuration list for PBXNativeTarget "WatchTV tvOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E9551FD1E28890500A0EFA1 /* Debug */,
+				4E9551FE1E28890500A0EFA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4EC36D291E2427CD00A80EFF /* Build configuration list for PBXProject "WatchTV" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -516,6 +909,7 @@
 				4EC36D5B1E2427CD00A80EFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4EC36D5C1E2427CD00A80EFF /* Build configuration list for PBXNativeTarget "WatchTVTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +918,7 @@
 				4EC36D5E1E2427CD00A80EFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4EC36D5F1E2427CD00A80EFF /* Build configuration list for PBXNativeTarget "WatchTVUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,21 +927,9 @@
 				4EC36D611E2427CD00A80EFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		4EC36D381E2427CD00A80EFF /* WatchTV.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				4EC36D391E2427CD00A80EFF /* WatchTV.xcdatamodel */,
-			);
-			currentVersion = 4EC36D391E2427CD00A80EFF /* WatchTV.xcdatamodel */;
-			path = WatchTV.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 4EC36D261E2427CD00A80EFF /* Project object */;
 }

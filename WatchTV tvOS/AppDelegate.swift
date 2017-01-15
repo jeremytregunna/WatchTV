@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  WatchTV
+//  WatchTV tvOS
 //
-//  Created by Jeremy Tregunna on 1/9/17.
+//  Created by Jeremy Tregunna on 1/12/17.
 //  Copyright © 2017 Greenshire, Inc. All rights reserved.
 //
 
@@ -10,22 +10,29 @@ import UIKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
+
     var window: UIWindow?
+
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         window = UIWindow(frame: UIScreen.main.bounds)
-        let dataSource = ChannelListDataSource(channels: ChannelService.all)
-        let channelList = ChannelListViewController(dataSource: dataSource)
-        let nav = UINavigationController(rootViewController: channelList)
-        Router.shared.navigationController = nav
-        window?.rootViewController = nav
+        let tab = UITabBarController()
+
+        UITabBar.appearance().barTintColor = UIColor.black
+        let itemAppearance = UITabBarItem.appearance()
+        itemAppearance.setTitleTextAttributes([NSForegroundColorAttributeName: UIColor.white], for: .normal)
+        itemAppearance.setTitleTextAttributes([NSForegroundColorAttributeName: UIColor.green], for: .selected)
+
+        let list = FeaturedChannelsViewController(channels: ChannelService.all)
+        tab.viewControllers = [list]
+        window?.rootViewController = tab
         window?.makeKeyAndVisible()
         return true
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
-        // Use this method to pause ongoing tasks, disable timers, and invalidate graphics rendering callbacks. Games should use this method to pause the game.
+        // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.
     }
 
     func applicationDidEnterBackground(_ application: UIApplication) {
@@ -43,7 +50,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
-        // Saves changes in the application's managed object context before the application terminates.
     }
+
+
 }
 

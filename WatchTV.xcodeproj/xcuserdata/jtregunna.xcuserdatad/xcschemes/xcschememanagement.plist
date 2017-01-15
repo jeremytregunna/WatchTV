@@ -4,14 +4,29 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>WatchTV.xcscheme</key>
+		<key>iOS.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>tvOS.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>4E9551E11E28890500A0EFA1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4E9551F11E28890500A0EFA1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>4EC36D2D1E2427CD00A80EFF</key>
 		<dict>
 			<key>primary</key>

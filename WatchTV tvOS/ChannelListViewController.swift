@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import AVKit
+import AVFoundation
 
 class ChannelListViewController: BaseViewController {
     var channelsView: ChannelsView
@@ -41,6 +43,15 @@ class ChannelListViewController: BaseViewController {
 
 extension ChannelListViewController: ChannelsViewDelegate {
     func channelsView(_ channelsView: ChannelsView, didSelectChannel channel: Channel) {
-        print("Selected: \(channel)")
+        let playerViewController = AVPlayerViewController()
+        playerViewController.modalTransitionStyle = .crossDissolve
+
+        guard let url = channel.url else { return }
+        present(playerViewController, animated: true) {
+            let player = AVPlayer(url: url)
+//            player.isClosedCaptionDisplayEnabled = true
+            playerViewController.player = player
+            playerViewController.player?.play()
+        }
     }
 }
